@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="nop commerece regression suite">
+	<parameter name="browser" value="chrome">
+	</parameter>
+	<test name="Regression Test">
+		<classes>
+			<class name="tests.UserRegisterationTestWithJavaFaker" />
+			<class name="tests.ProductHoverMenuTest" />
+			<class name="tests.SearchProductsUsingAutoSuggestTest" />
+			<class name="tests.SearchProductTest" />
+		</classes>
+	</test>
+</suite> 
